@@ -2,7 +2,9 @@ import React from "react";
 
 const ExpenseCard = ({ color, category, amount, percentage }) => {
   return (
-    <div className={`bg-${color} p-5 rounded-lg shadow-md flex justify-between items-center`}>
+    <div
+      className={`bg-${color} p-5 rounded-lg shadow-md flex justify-between items-center`}
+    >
       <div className="flex items-center gap-3">
         <div
           className="radial-progress text-sm p-2"

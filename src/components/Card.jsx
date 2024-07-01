@@ -2,7 +2,7 @@ import { ArrowUpRight, CircleDollarSign } from "lucide-react";
 
 const Card = ({ variant }) => {
   return (
-    <div className="card bg-white w-full md:max-w-[20rem] text-black shadow-md">
+    <div className="card bg-white w-full md:max-w-[16rem] 2xl:max-w-[20rem] text-black shadow-md">
       <div className="card-body p-0">
         <div className="flex items-center justify-between">
           {/* Title */}
