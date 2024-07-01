@@ -16,22 +16,23 @@ const Home = () => {
       </div>
       {/* Chart Section */}
       <div className="flex flex-col md:flex-row w-full gap-4">
-        <div className="w-full md:w-2/3">
+        <div className="w-full md:w-3/5">
           <SalesChart />
         </div>
-        <div className="w-full md:w-1/2 bg-white p-4 rounded-lg shadow-md pt-9">
+        <div className="w-full md:w-2/5 bg-white rounded-lg shadow-md pt-9 px-7">
           <div className="flex justify-between items-center">
             <h1 className="text-lg font-bold text-black">
               Expense By Category
             </h1>
             <p className="text-lg font-bold text-black">$500</p>
           </div>
+          {/* Expense Cards Section */}
           <div className="flex flex-col gap-5 lg:gap-4 pt-12">
             <ExpenseCard
               category={"Food and Beverages"}
               value={"20%"}
               amount={"$120.00"}
-              color={"[#fdf2e8]"}
+              bgColor={"[#fdf2e8]"}
               textColor={"[#f59232]"}
               percentage={20}
             />
@@ -39,23 +40,22 @@ const Home = () => {
               category={"Transport"}
               value={"30%"}
               amount={"$120.00"}
-              color={"[#e8e3fc]"}
+              bgColor={"[#e8e3fc]"}
               textColor={"[#653EFE]"}
               percentage={30}
             />
-             <ExpenseCard
+            <ExpenseCard
               category={"Entertainment"}
               value={"30%"}
               amount={"$230.00"}
-              color={"[#f9efed]"}
+              bgColor={"[#f9efed]"}
               textColor={"[#34BD63]"}
               percentage={60}
             />
-    
-    
           </div>
         </div>
       </div>
+
       {/* Table Section */}
       <div className="w-full">
         <Table />
