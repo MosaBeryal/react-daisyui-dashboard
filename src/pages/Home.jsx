@@ -19,7 +19,7 @@ const Home = () => {
         <div className="w-full md:w-3/5">
           <SalesChart />
         </div>
-        <div className="w-full md:w-2/5 bg-white rounded-lg shadow-md pt-9 px-7">
+        <div className="w-full md:w-2/5 bg-white rounded-lg shadow-md py-9 px-7">
           <div className="flex justify-between items-center">
             <h1 className="text-lg font-bold text-black">
               Expense By Category
