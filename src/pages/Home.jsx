@@ -21,10 +21,10 @@ const Home = () => {
           <SalesChart />
         </div>
         {/* Expense Card */}
-        <div className="w-full md:w-2/5 bg-white rounded-lg shadow-md py-9 px-7">
+        <div className="w-full md:w-2/5 bg-white rounded-lg shadow-md py-8 md:pt-7  xl:py-9 px-7">
           {/* Heading Section*/}
           <div className="flex justify-between items-center">
-            <h1 className="text-lg font-bold text-black">
+            <h1 className="text-lg font-bold text-black"> 
               Expense By Category
             </h1>
             <p className="text-lg font-bold text-black">$500</p>
