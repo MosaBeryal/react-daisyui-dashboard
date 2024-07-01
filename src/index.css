@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.drawer {
+  @apply lg:pr-5 lg:pb-5 lg:pt-5;
+}
+.card {
+@apply p-5;
+}
+
+.badge {
+  @apply rounded-full px-2 py-1 border-0
+}
+
+.badge-ghost {
+  @apply bg-gray-200 text-gray-800 border-0; 
+}
+
+
+.card-title{
+  @apply text-sm font-normal;
+}
+
+.btn {
+  @apply border-0;
+}
+
+
+/* .drawer{
+  @apply text-white
+} */
