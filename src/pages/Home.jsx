@@ -16,17 +16,20 @@ const Home = () => {
       </div>
       {/* Chart Section */}
       <div className="flex flex-col md:flex-row w-full gap-4">
+        {/* Sales Chart */}
         <div className="w-full md:w-3/5">
           <SalesChart />
         </div>
+        {/* Expense Card */}
         <div className="w-full md:w-2/5 bg-white rounded-lg shadow-md py-9 px-7">
+          {/* Heading Section*/}
           <div className="flex justify-between items-center">
             <h1 className="text-lg font-bold text-black">
               Expense By Category
             </h1>
             <p className="text-lg font-bold text-black">$500</p>
           </div>
-          {/* Expense Cards Section */}
+          {/*Cards Section */}
           <div className="flex flex-col gap-5 lg:gap-4 pt-12">
             <ExpenseCard
               category={"Food and Beverages"}
@@ -55,7 +58,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
       {/* Table Section */}
       <div className="w-full">
         <Table />
